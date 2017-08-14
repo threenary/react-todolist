@@ -1,0 +1,24 @@
+#send-todos{
+  display: flex;
+}
+
+#send-todos input[type="email"]{
+    flex-basis: 0;
+    flex-grow: 7;
+    padding: 10px;
+    border: 2px solid #c14c66;
+    border-radius: 4px 0 0 4px;
+    color: #777;
+}
+
+#send-todos input[type="submit"]{
+    flex-basis: 0;
+    flex-grow: 3;
+    padding: 10px;
+    background: #c14c66;
+    border-radius: 0 4px 4px 0;
+    border: 2px solid #c14c66;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
